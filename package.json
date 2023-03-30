@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-webpack",
+  "name": "urssaf-previsu-mail",
   "version": "1.0.0",
-  "description": "Typescript + React + Tailwind + SASS chrome extension starter",
+  "description": "Extension chrome permettant d'ouvrir les documents reçus dans un nouvel onglet",
   "scripts": {
     "dev": "webpack --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
