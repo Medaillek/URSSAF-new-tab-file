@@ -15,12 +15,6 @@ interface pdfResponse {
   }
 }
 
-chrome.runtime.onInstalled.addListener(async () => {
-  /* await initializeStorageWithDefaults({
-    //key: value
-  }) */
-})
-
 chrome.runtime.onMessage.addListener(async (message: message) => {
   if (message.allInfos) {
     getPdfFile(message.allInfos.url, message.allInfos.bearer)
