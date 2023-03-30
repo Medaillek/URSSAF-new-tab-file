@@ -1,5 +1,6 @@
 {
   "name": "URSSAF - Prévisu Documents",
+  "author": "Kieron AUDIFFREN",
   "description": "Ouvrez vos documents dans un nouvel onglet sur le site autoentrepreneur.urssaf.fr !",
   "version": "1.0.0",
   "manifest_version": 3,
