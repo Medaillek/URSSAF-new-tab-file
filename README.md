@@ -11,11 +11,12 @@ Extension chrome qui permet d'ouvrir les pièces jointes des messages reçus sur
 
 1. `git clone https://github.com/Medaillek/URSSAF-new-tab-file.git`
 2. `cd ./URSSAF-new-tab-file`
-3. `npm run build`
-4. Ouvrez votre navigateur et accédez à [chrome://extensions/](chrome://extensions/)
-5. En haut à droite de l'écran, **activez le mode développeur**.
-6. Cliquez sur **Chargez l'extension non empaquetée**.
-7. Recherchez et sélectionnez le dossier **/dist/** qui vient de se créer dans le dossier **/URSSAF-new-tab-file/**.
+3. `npm i`
+4. `npm run build`
+5. Ouvrez votre navigateur et accédez à [chrome://extensions/](chrome://extensions/)
+6. En haut à droite de l'écran, **activez le mode développeur**.
+7. Cliquez sur **Chargez l'extension non empaquetée**.
+8. Recherchez et sélectionnez le dossier **/dist/** qui vient de se créer dans le dossier **/URSSAF-new-tab-file/**.
 <br>
 <br>
 
