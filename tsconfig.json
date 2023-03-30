@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "rootDir": "src",
+    "noEmitOnError": true,
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "@utils/*": ["./src/utils/*"],
+      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@styles/*": ["./styles/*"],
+      "@static/*": ["./static/*"],
+      "@images/*": ["./static/images/*"],
+      "@icons/*": ["./static/icons/*"]
+    }
+  },
+  "exclude": ["./dist", "./dist.zip", "./webpack"],
+  "include": ["src/**/*"]
+}
