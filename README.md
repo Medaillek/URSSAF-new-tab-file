@@ -1,3 +1,7 @@
+![Chrome Web Store](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)
+
+<br>
+
 # URSSAF-new-tab-file
 Extension chrome qui permet d'ouvrir les pièces jointes des messages reçus sur le site de l'[URSSAF](https://www.autoentrepreneur.urssaf.fr "URSSAF") dans un nouvel onglet au lieu de devoir les télécharger.
 ***
@@ -8,6 +12,14 @@ Extension chrome qui permet d'ouvrir les pièces jointes des messages reçus sur
 <br>
 
 # Installer l'extension
+
+## Automatiquement 
+
+1. Télécharger l'extension depuis le [Chrome Web Store](https://chrome.google.com/webstore/detail/urssaf-pr%C3%A9visu-documents/diaeaphmpocbgkfiajecehlpkidaaolh) 
+
+<br>
+
+## Manuellement 
 
 1. Télécharger le dépôt : Code -> Download ZIP
 2. Extraire le dossier **/dist/** de l'archive et le placer sur le bureau *(par exemple)*
