@@ -26,7 +26,7 @@ Extension chrome qui permet d'ouvrir les pièces jointes des messages reçus sur
 3. Ouvrez votre navigateur et accédez à [chrome://extensions/](chrome://extensions/)
 4. En haut à droite de l'écran, **activez le mode développeur**.
 5. Cliquez sur **Chargez l'extension non empaquetée**.
-6. Recherchez et sélectionnez le dossier **/dist/** qui vient de se créer dans le dossier **/URSSAF-new-tab-file/**.
+6. Recherchez et sélectionnez le dossier **/dist/** précédemment sorti de l'archive.
 
 <br>
 
