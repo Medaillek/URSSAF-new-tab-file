@@ -23,7 +23,6 @@ chrome.runtime.onMessage.addListener(async (message: message) => {
 
 chrome.webRequest.onBeforeRequest.addListener(
   (details) => {
-    console.log(details)
     if (
       details.url.includes('piecesJointes') &&
       !details.initiator?.startsWith('chrome-extension')

@@ -1,12 +1,11 @@
 import { message } from './serviceWorker'
 
-const bearer = localStorage.getItem('access_token')
-
 chrome.runtime.onMessage.addListener((message: message) => {
   if (message.pdf) {
     replaceExistingButton(message.pdf.contenu)
   }
   if (message.url) {
+    const bearer = localStorage.getItem('access_token')
     chrome.runtime.sendMessage({
       allInfos: { bearer: bearer, url: message.url }
     })
